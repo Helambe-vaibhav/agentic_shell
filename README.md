@@ -131,5 +131,6 @@ The project is organized with a clear separation of concerns between the server,
     -   **`merge_and_save.py`**: A utility script that merges the fine-tuned LoRA adapter (the result of retraining) back into the base model to create a new, standalone model.
     -   **`deploy_api.py`**: A script to serve the newly merged model using the vLLM OpenAI-compatible API server, making it ready for inference.
     -   **`pipeline.py`**: The master script that orchestrates the entire MLOps workflow, automatically running the `retraining`, `merge_and_save`, and `deploy_api` steps in sequence.
-#   a g e n t i c _ s h e l l  
- 
+#   a g e n t i c _ s h e l l 
+ 
+ 
